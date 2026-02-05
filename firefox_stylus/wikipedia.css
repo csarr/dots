@@ -1,0 +1,48 @@
+body.theme-sepia {
+	--page-bg: #FDF6E3;
+	--box-bg: rgb(240,231,213);
+	--box-bg: #F4F0D9;
+	--box-bg-dark: rgb(240,231,213);
+	--box-bg-dark: #EFEBD4;
+	--box-bg-darker: #EFEBD4;
+	--box-bg-light: rgb(255,249,236);
+	--box-bg-light: #F4F0D9;
+	--text-color: #000000;
+	--text-color-light: rgb(93,87,78);
+	--text-color-light: rgb(93,83,71);
+	--text-color-light: #708089;
+	--text-color-lighter: #708089;
+	--sep-color: #EFEBD4;
+	--scrollbar-color: var(--box-bg-dark);
+	--scrollbar-color-contents: var(--scrollbar-color);
+	--switcher-bg: var(--box-bg-light);
+	--slider-bg: #EFEBD4;
+	--slider-thumb-color: #FDF6E3;
+	--bullet-color: var(--text-color-lighter);
+	--background-color-interactive-subtle: #f4f0D9;
+	--border-color-subtle: transparent;
+	--font-sans: iMWritingQuat Nerd Font Propo;
+	--font-serif: iMWritingQuat Nerd Font Propo
+}
+:root {
+	--theme-colors: 140, 116, 73;
+}
+
+.bandeau-niveau-ebauche, .bandeau-niveau-information {
+	border-color: #3A94C5;
+	background: #E9F0E9
+}
+
+
+.theme-article .mw-body h1, .theme-article .mw-body-content h1 {
+	font-size: 35px !important;
+}
+
+.theme-article .mw-body-content h2 {
+	font-size: 25px !important
+}
+
+.vector-body .mw-heading3, .vector-body h3, .vector-body .mw-heading4, .vector-body h4 {
+  font-weight: 500;
+  font-family: Recursive Casual;
+}

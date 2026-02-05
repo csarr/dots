@@ -1,0 +1,78 @@
+body {
+    --embed-padding: 0;
+    --embed-border-start: none;
+    
+}
+
+.markdown-preview-view .markdown-embed {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.file-embed-link, .markdown-embed-link svg {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXBlbmNpbC1saW5lLWljb24gbHVjaWRlLXBlbmNpbC1saW5lIj48cGF0aCBkPSJNMTMgMjFoOCIvPjxwYXRoIGQ9Im0xNSA1IDQgNCIvPjxwYXRoIGQ9Ik0yMS4xNzQgNi44MTJhMSAxIDAgMCAwLTMuOTg2LTMuOTg3TDMuODQyIDE2LjE3NGEyIDIgMCAwIDAtLjUuODNsLTEuMzIxIDQuMzUyYS41LjUgMCAwIDAgLjYyMy42MjJsNC4zNTMtMS4zMmEyIDIgMCAwIDAgLjgzLS40OTd6Ii8+PC9zdmc+);
+    color: transparent;
+}
+
+.inline-embed > .markdown-embed-title {
+    display: none;
+}
+
+.internal-embed:not([src*="#^"]) .markdown-embed-link {
+    right: 8px;
+    position: absolute;
+    width: fit-content;
+    top: 5px;
+}
+
+.markdown-embed .markdown-embed-link {
+    opacity: 30%
+}
+
+.callout[data-callout="pr"], .callout[data-callout="det"]  {
+    margin: 0;
+    --callout-color: transparent;
+}
+
+.callout[data-callout="pr"] .callout-title, .callout[data-callout="det"] .callout-title {
+    padding: 0;
+}
+
+.callout[data-callout="pr"] .callout-content, .callout[data-callout="det"] .callout-content {
+    padding: 0;
+}
+
+.callout[data-callout="pr"] .callout-content::after {
+    content: '□';
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    opacity: 60%;
+}
+
+.callout[data-callout="pr"] .callout-title .callout-icon, .callout[data-callout="det"] .callout-title .callout-icon {
+    display: none;
+}
+
+.callout-fold .svg-icon {
+    stroke-width: 3px;
+    height: 16px;
+    width: 16px;
+}
+
+.callout-fold {
+    position: absolute;
+}
+
+.callout.is-collapsible .callout-title-inner {
+    text-indent: 20px;
+}
+
+.inline-embed > .markdown-embed-content > .markdown-source-view, .inline-embed > .markdown-embed-content > .markdown-preview-view {
+    width: 100%
+}
+
+.inline-embed > .markdown-embed-content {
+    overflow-x: hidden;
+}

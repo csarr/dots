@@ -1,0 +1,25 @@
+html {
+  --bgColor-default: #fdf6e3 !important;
+  --bgColor-inset: #fdf6e3 !important;
+  --bgColor-muted: #fdf6e3 !important;
+  --button-default-bgColor-rest: #fdf6e3 !important;
+  --button-default-bgColor-hover: #fdf6e3 !important;
+  --fgColor-default: #000000 !important;
+  --borderColor-default: #000000 !important;
+  --borderColor-muted: #000000 !important;
+  --treeViewItem-leadingVisual-iconColor-rest: #887449 !important;
+  --fgColor-accent: #887449 !important;
+  --bgColor-accent-muted: #d2c5aa !important;
+  --bgColor-accent-emphasis: #d2c5aa !important;
+  --button-primary-bgColor-rest: #887449 !important;
+  --button-primary-bgColor-hover: #887449 !important;
+  --button-primary-bgColor-active: #887449 !important;
+  --border-default: 1px solid black !important;
+  --underlineNav-borderColor-active:  #887449 !important;
+  --overlay-bgColor: #fdf6e3 !important;
+}
+
+.js-snippet-clipboard-copy-unpositioned .markdown-body .snippet-clipboard-content, .js-snippet-clipboard-copy-unpositioned .markdown-body .highlight {
+  border: 1px solid;
+  border-radius : 6px;
+}

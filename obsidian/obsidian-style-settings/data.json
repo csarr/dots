@@ -1,0 +1,18 @@
+{
+  "minimal-style@@file-header-visibility": "minimal-tab-title-visible",
+  "minimal-style@@callouts-style": "callouts-default",
+  "minimal-style@@tabs-style": "tabs-plain-square",
+  "minimal-style@@h1-size": "1.5em",
+  "minimal-style@@h1-weight": 600,
+  "minimal-style@@h1-l": true,
+  "minimal-style@@h1-variant": "normal",
+  "minimal-style@@h1-style": "italic",
+  "minimal-style@@h2-size": "1.25em",
+  "minimal-style@@h2-l": true,
+  "minimal-style@@embed-strict": false,
+  "minimal-style@@base@@light": "#FDF6E3",
+  "minimal-style@@bg1@@light": "#FDF6E3",
+  "minimal-style@@bg2@@light": "#FDF6E3",
+  "minimal-style@@bg3@@light": "#FDF6E3",
+  "minimal-style@@h2-style": "italic"
+}
